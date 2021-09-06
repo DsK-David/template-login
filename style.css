@@ -1,0 +1,70 @@
+/*corpo*/
+body {
+    font-size: 20pt;
+    padding: 0;
+    font-family:'Lucida Sans';
+    background:url("BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+/*titulo*/
+h1{
+        color:#0DB0FF;
+        text-transform: uppercase;
+}
+/*caixa*/
+.box{
+        padding: 6px 0;
+        width: 300px;
+        height: 400px;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        border:none;
+        
+}
+/*caixa de textos (input)*/
+.nome,.pass{
+        padding:11px 0;
+        background: none;
+        text-align: center;
+        border: 2px solid #1CB0D3;
+        border-radius:24px;
+        outline: none;
+        color:white;
+        width: 250px;
+}
+/*quando clicado*/
+.nome:focus,.pass:focus{
+        border-color: #0DFF8F;
+        width: 260px;
+}
+/*textos dentro*/
+input::placeholder{
+        color:  white;
+}
+/*botão*/
+.btn{
+        border:2px solid #170353;
+        cursor: pointer;
+        outline: none;
+        color:white;
+        border-radius:24px;
+width: 250px;
+         height: 30px;
+         text-align: center;
+         background:#032253;
+}
+.btn:focus{
+        width:110px;
+}
+.btn:hover{
+        background: #0DFF8F;
+}
+div{
+        background: blue;
+        color:white;
+        border-radius:24px;
+}
